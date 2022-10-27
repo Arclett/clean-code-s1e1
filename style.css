@@ -13,7 +13,8 @@
 .header__img {
   width: 100%;
 }
-.header, .header__info {
+.header, 
+.header__info {
   font-family: fantasy, cursive;
 }
 
@@ -22,14 +23,16 @@
   .header {
     text-align: center;
   }
-  
+
 }
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.list-elem__input, .add-task__input, .list-elem__label {
+.list-elem__input, 
+.add-task__input, 
+.list-elem__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -41,10 +44,12 @@
   margin:0;
   padding: 0px;
 }
-.list-elem, .subtitle {
+.list-elem, 
+.subtitle {
   list-style:none;
 }
-.input, .button{
+.input, 
+.button {
   outline:none;
 }
 .button {
