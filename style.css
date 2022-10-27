@@ -30,7 +30,7 @@
 .list-elem__input, .add-task__input, .list-elem__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-task__wrapper {
   display: flex;
@@ -115,7 +115,7 @@
   width: 226px;
 }
 .list-elem__input {
-  width: 226px
+  width: 226px;
 }
 .delete-icon {
   height: 2em;
@@ -128,13 +128,13 @@
 
 /* Completed */
 .complete-list .list-elem__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list-elem__input {
-  display:none
+  display:none;
 }
 
 .list-elem_edit-mode .list-elem__input {
