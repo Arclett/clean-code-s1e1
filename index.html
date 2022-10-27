@@ -12,37 +12,37 @@
     </header>
     <main class="main">
       <div id="add-task" class="add-task">
-        <label for="new-task" class="subtitle">Add Item</label>
+        <label for="new-task" class="subtitle add-task__label">Add Item</label>
         <div class="add-task__wrapper">
-          <input id="new-task" class="task" type="text">
+          <input id="new-task" class="input input-text add-task__input" type="text">
           <button class="button">Add</button>
         </div>
       </div>
       <h3 class="subtitle">Todo</h3>
       <ul id="incomplete-tasks" class="todo-list list">
         <li class="list-elem">
-          <input type="checkbox" class="list-elem__check">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg" alt="remove icon"></button>
+          <input type="checkbox" class="input list-elem__check">
+          <label class="list-elem__label">Pay Bills</label>
+          <input type="text" class="input input-text list-elem__input">
+          <button class="edit button">Edit</button>
+          <button class="delete button"><img src="./remove.svg" alt="remove icon" class="delete-icon"></button>
         </li>
         <li class="list-elem list-elem_edit-mode">
-          <input type="checkbox" class="list-elem__check">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete"><img src="./remove.svg" alt="remove icon"></button>
+          <input type="checkbox" class="list-elem__check input">
+          <label class="list-elem__label list-elem__label_edit-mode">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="input input-text list-elem__input list-elem__input_edit-mode">
+          <button class="edit button">Save</button>
+          <button class="delete button"><img src="./remove.svg" alt="remove icon" class="delete-icon"></button>
         </li>
       </ul>
       <h3 class="subtitle">Completed</h3>
       <ul id="completed-tasks" class="complete-list list">
         <li class="list-elem">
-          <input type="checkbox" checked class="list-elem__check"  >
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg" alt="remove icon"></button>
+          <input type="checkbox" checked class="list-elem__check input list-elem__input">
+          <label class="list-elem__label list-elem__label_complete">See the Doctor</label>
+          <input type="text" class="input input-text">
+          <button class="edit button">Edit</button>
+          <button class="delete button"><img src="./remove.svg" alt="remove icon" class="delete-icon"></button>
         </li>
       </ul>
     </main>
