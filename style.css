@@ -127,7 +127,7 @@
 }
 
 /* Completed */
-.list-elem__label_complete {
+.complete-list .list-elem__label {
   text-decoration: line-through
   color: #888;
 }
@@ -137,11 +137,11 @@
   display:none
 }
 
-.list-elem_edit-mode input[type="text"] {
+.list-elem_edit-mode .list-elem__input {
   display:inline-block;
   width:224px
 }
 
-.list-elem_edit-mode label {
+.list-elem_edit-mode .list-elem__label {
   display:none;
 }
